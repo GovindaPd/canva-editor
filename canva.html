@@ -76,7 +76,7 @@
     background: #222;
     border: 1px solid #444;
     width: fit-content;
-    margin: 15px 15px;  #15px auto;
+    margin: 15px 15px;
     position: relative;
     /*box-shadow: 0 0 10px #000;*/
   }
@@ -84,7 +84,7 @@
   .resize-handle {
     width: 14px;
     height: 14px;
-    background: #ffc107; //white;
+    background: #ffc107;
     border-radius: 50%;
     position: absolute;
     bottom: -7px;
@@ -119,6 +119,7 @@
   .popup-menu.active {
       display: block;
   }
+
 
 </style>
 </head>
@@ -432,7 +433,7 @@
       <div class="tool-group">
         <button id="shapeGroupBtn" title="Shapes"><i class="fa-solid fa-shapes"></i></button>
         <div id="shapePopup" class="popup-menu">
-          <div class="controls" style="display:flex; column; gap:6px;">
+          <div class="controls" style="display:flex; gap:6px;">
             <button class="shape-btn" data-shape="rect" title="Square"><i class="fa-solid fa-square"></i></button>
             <button class="shape-btn" data-shape="circle" title="Circle"><i class="fa-solid fa-circle"></i></button>
             <button class="shape-btn" data-shape="triangle" title="Triangle"><i class="fa-solid fa-play"></i></button>
